@@ -49,7 +49,7 @@ $ g++ Designated-Verifier.cpp -o Designated-Verifier -lcrypto -lgmp -lpbc
 #### Witness Verifiers
 For each witness verifier, copy Witness-Verifier.cpp to a directory and enter it, then:
 ```
-$ g++ Witness -Verifier.cpp -o Witness -Verifier -lcrypto -lgmp -lpbc
+$ g++ Witness-Verifier.cpp -o Witness-Verifier -lcrypto -lgmp -lpbc
 ```
 
 #### Node
