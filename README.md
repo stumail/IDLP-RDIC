@@ -80,7 +80,7 @@ Please replace 192.168.0.1 and 6000 to the actual IP and port of the PMN, replac
 
 ### Run Witness Verifiers
 ```
-$ ./ Witness-Verifier 192.168.0.1 6000 7100
+$ ./Witness-Verifier 192.168.0.1 6000 7100
 ```
 Please replace 192.168.0.1 and 6000 to the actual IP and port of the PMN, replace 7100 to the actual port of the witness verifier. You can run several witness verifiers simultaneously, but please ensure that the IPs and ports do not conflict.
 
