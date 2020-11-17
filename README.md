@@ -1,7 +1,7 @@
 # Secure Light-weight Stream Data Outsourcing for Internet of Things
 
 ## Introduction
-This is the demo codes for the paper "Secure Light-weight Stream Data Outsourcing for Internet of Things".
+These are the demo codes for the paper "Secure Light-weight Stream Data Outsourcing for Internet of Things".
 
 ## Development
 The codes are written in C++ under Debian 10, and tested under Raspbian Buster (Raspberry Pi 4), Debian 10, and Ubuntu 18.04. The dependent libraries are OpenSSL and PBC Library. Please follow these steps:
