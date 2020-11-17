@@ -72,7 +72,7 @@ $ ./RS 192.168.0.1 6000 6100
 ```
 Please replace 192.168.0.1 and 6000 to the actual IP and port of the PMN, replace 6100 to the actual port of the RS.
 
-A sample output:
+Here is a sample output:
 ```
 RS emulation starts.
 g2 = [3835290714881499063234722596030330929525191950031135780532373609768197739884147203712326636053061263296030595072401626259528919901924379183754351262762991, 1557593106912541163068444538830358336808289563720837536371742010962165882406442235712410922255466790569518046577982578410592257310883169826417478380641560]
@@ -102,7 +102,7 @@ $ ./Designated-Verifier 192.168.0.1 6000 7000
 ```
 Please replace 192.168.0.1 and 6000 to the actual IP and port of the PMN, replace 7000 to the actual port of the designated verifier.
 
-A Sample output (for two witness verifiers):
+Here is a sample output (for two witness verifiers):
 ```
 Designated verifier emulation starts.
 g2 = [3835290714881499063234722596030330929525191950031135780532373609768197739884147203712326636053061263296030595072401626259528919901924379183754351262762991, 1557593106912541163068444538830358336808289563720837536371742010962165882406442235712410922255466790569518046577982578410592257310883169826417478380641560]
@@ -131,7 +131,7 @@ $ ./Witness-Verifier 192.168.0.1 6000 7100
 ```
 Please replace 192.168.0.1 and 6000 to the actual IP and port of the PMN, replace 7100 to the actual port of the witness verifier. You should run at least two witness verifiers simultaneously. Please ensure that the IPs and ports do not conflict.
 
-A Sample output:
+Here is a sample output:
 ```
 Witness verifier emulation starts.
 g2 = [3835290714881499063234722596030330929525191950031135780532373609768197739884147203712326636053061263296030595072401626259528919901924379183754351262762991, 1557593106912541163068444538830358336808289563720837536371742010962165882406442235712410922255466790569518046577982578410592257310883169826417478380641560]
@@ -151,7 +151,7 @@ $ ./Node 192.168.0.1 6000 6200 nid fid 1024
 ```
 Please replace 192.168.0.1 and 6000 to the actual IP and port of the PMN, replace 6200 to the actual port of the node, replace "nid" to the actual ID of the node, replace "fid" to the actual ID of the file, replace 1024 to the actual block number of the file. (For a sector size 65536, a file in 1024 blocks is 1024\*65536\*16 Byte, i.e., 1 GB.) We remark that, the subsequent verification tasks (i.e., running RS, designated verifier, witness verifiers, and node more than one time under the same PMN and the same ID) is much faster than the first task, because we store some pre-computed parameters on the disk. We use this trick to accelerate batch operations for a same node.
 
-A Sample output:
+Here is a sample output:
 ```
 Node emulation starts.
 Waiting for the private key...
