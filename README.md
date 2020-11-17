@@ -149,7 +149,7 @@ Responded to the designated verifier.
 ```
 $ ./Node 192.168.0.1 6000 6200 nid fid 1024
 ```
-Please replace 192.168.0.1 and 6000 to the actual IP and port of the PMN, replace 6200 to the actual port of the node, replace "nid" to the actual ID of the node, replace "fid" to the actual ID of the file, replace 1024 to the actual block number of the file. (For a sector size 65536, a file in 1024 blocks is 1024\*65536\*16 Byte, i.e., 1 GB.) We remark that, the subsequent verification tasks (i.e., running RS, designated verifier, witness verifiers, and node more than one time under the same PMN and the same ID) is much faster than the first task, because we store some pre-computed parameters on the disk. We use this trick to accelerate batch operations for a same node.
+Please replace 192.168.0.1 and 6000 to the actual IP and port of the PMN, replace 6200 to the actual port of the node, replace "nid" to the actual ID of the node, replace "fid" to the actual ID of the file, replace 1024 to the actual block number of the file. (For a sector size 65536, a file in 1024 blocks is 1024\*65536\*16 Byte, i.e., 1 GB.) We remark that, the subsequent verification tasks (i.e., running RS, designated verifier, witness verifiers, and node more than one time under the same PMN and the same node ID) is much faster than the first task, because we store some pre-computed parameters on the disk. We use this trick to accelerate batch operations for a same node.
 
 Here is a sample output:
 ```
